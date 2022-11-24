@@ -1,0 +1,28 @@
+.botonEnvio{
+    background-color: rgb(43, 110, 65);
+    color: #ffff;
+    border-style: none;
+    border-radius: 6px;
+    height: 50px;
+    width: 100px;
+}
+.usuario{
+    border-style: none;
+    border-radius: 6px;
+    height: 30px;
+}
+.mensaje{
+    border-style: none;
+    border-radius: 6px;
+    height: 30px;
+}
+.notificaciones{
+    background-color: #ffff;
+};
+
+.return{
+background-color: #ffff;
+    color: #005792;
+    border-style: none;
+    align-items: flex-start;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8"/>
+    <title>Chat Sockets</title>
+<link rel="stylesheet" href="./css/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+  </head>
+  <body  style="background-color: #202020; text-align: center;  ">
+    <nav style="background-color:#235477; height: 70px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h2 class="joseluis" style="text-align: center;"><p style="color: #fff;">Chat Sockets</p></a>
+        
+   
+    </nav>
+  <div class="main-container" style="background-color: #202020; text-align: center; color:#fff; "> 
+    <h2 style="margin-top: 20px;">USUARIOS</h2>
+   <div style="background-color: #fff; color:#202020; height:200px; width: 230px; border-left: 800px; align-content: center; margin-top: 100px; overflow: scroll; margin-left: 750px; ">
+    <section >
+      <div id="notificaciones" style= "background-color: #202020; color:#fff; height:200px; width:200px; margin-right: 60px;"></div>
+    </section>
+  </div>
+    <div class="chat" style="margin-top: 100px;" >    
+    <h1>Chat</h1>
+      <div id="salida">
+        <div class="avisos" id="avisos">
+        </div>
+        <br>
+      </div>
+      <br>
+    <input type="text" class="usuario" id="usuario" placeholder="Nombre" required>
+    <br><br>
+    <input type="text" class="mensaje" id="mensaje" placeholder="Escribe un mensaje" style="width: 1000px;" required>
+    <br>
+    <br>
+    <br>
+    <button class="botonEnvio" id="enviar" >Enviar</button>
+    </div>
+
+  </div>
+  <footer>
+    <br>
+    <button class="return"><a href="/registro">Regresar</a></button>
+  </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/logica.js" charset="utf-8"></script>
+  </body>
+</html>
